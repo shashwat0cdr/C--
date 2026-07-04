@@ -1,73 +1,66 @@
-# C++ Learning Repository
+# C++ Daily Practice Repository
 
-Welcome to my C++ learning journey! This repository contains my personal projects and practice code as I explore and master C++.
+This repository is a personal collection of daily C++ practice files and exercises. It is meant for learning the fundamentals of C++, improving problem-solving skills, and building a steady habit of coding every day.
 
-## 📚 Repository Structure
+## 📁 Repository Structure
 
-### Intro
-Getting started with C++ fundamentals and core concepts.
-
-- **day_01** - Starting intro code
-  - Initial C++ programs and basic syntax
-  - Hello World and foundational concepts
-  
-- **day_02** - Datatypes and Variables
-  - Understanding different data types in C++
-  - Variable declarations and usage
-  - Type conversions and operations
+- [intro](intro/) - Daily practice programs written in C++
+  - Files such as [intro/day_01.cpp](intro/day_01.cpp) through [intro/day14.cpp](intro/day14.cpp) represent daily coding exercises
+- [build](build/) - Compiled output and build artifacts
+- [output](output/) - Output files or sample results from exercises
 
 ## 🎯 Purpose
 
-This repository serves as:
-- A learning resource for C++ fundamentals
-- A portfolio of practice projects
-- A reference for C++ concepts and implementations
-- A progress tracker for my C++ journey
+This repo is for:
+- practicing C++ syntax and core concepts
+- building confidence through daily coding
+- tracking progress over time
+- revisiting small programs as learning references
 
-## 📖 Topics Covered
+## 🧠 What This Repository Covers
 
-- Basic syntax and structure
-- Data types and variables
-- Operators and expressions
-- Control flow
-- Functions
-- Object-oriented programming (to be added)
-- Data structures (to be added)
-- Algorithms (to be added)
+The practice files focus on foundational C++ topics such as:
+- basic syntax and program structure
+- variables and data types
+- input and output
+- operators and expressions
+- conditional statements
+- loops
+- functions
+- simple problem-solving exercises
 
 ## 🛠️ Getting Started
 
 ### Prerequisites
-- C++ compiler (g++, clang, or MSVC)
-- Text editor or IDE (VS Code, Visual Studio, Code::Blocks, etc.)
+- A C++ compiler such as g++, clang++, or MSVC
+- An editor or IDE such as VS Code
 
-### Compilation
+### Compile and Run a File
+On Windows with g++:
+
 ```bash
-# Navigate to the desired directory
-cd Intro/day_01
-
-# Compile the C++ file
-g++ -o program_name filename.cpp
-
-# Run the compiled program
-./program_name
+g++ intro/day_01.cpp -o build/Debug/day_01.exe
+build/Debug/day_01.exe
 ```
 
-## 📝 Notes
+Or if you are using VS Code, you can compile and run the file directly from the integrated terminal.
 
-Each folder contains practice code with comments explaining the concepts being learned. Feel free to explore, modify, and experiment with the code!
+## 📝 How to Use This Repo
 
-## 🚀 Future Plans
+- Open any file in [intro](intro/)
+- Read the code and try to understand it
+- Modify it and test your own ideas
+- Keep practicing daily to improve your skills
 
-- Add more advanced topics (OOP, STL, etc.)
-- Include project-based exercises
-- Add comprehensive documentation
-- Implement real-world projects
+## 🚀 Future Goals
 
-## 📧 Contact
+- add more advanced C++ topics
+- include mini projects and challenges
+- organize exercises by concept
+- improve documentation for each day
 
-For questions or suggestions about this repository, feel free to reach out!
+## 💡 Note
 
----
+This repository is a learning journey, so it is okay to make mistakes, experiment, and improve over time.
 
-**Happy Learning! 🎓**
+Happy coding!
